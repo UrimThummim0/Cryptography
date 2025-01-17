@@ -5,9 +5,11 @@ It applies a specific formula to reorder the characters in the ciphertext based 
 Specifically, the formula (key + 1) * (n - 1) - key is used to determine the new position of each character in the ciphertext,
 where n is the original position of the character. The function then reorders the characters accordingly and returns the resulting
 decrypted text.
+
+YFwoJeELOvlDVrOlNBDConouLwhdCC mkIjsYeKsuaGsDbSRJymLJVOaYNQRrgKBSifPOdnCbUleWCbf
+
 ------------------------------------------------------------------------------------------------UrimThummim0------------------------
 """
-#YFwoJeELOvlDVrOlNBDConouLwhdCC mkIjsYeKsuaGsDbSRJymLJVOaYNQRrgKBSifPOdnCbUleWCbf
 
 retrieved_plaintext = []
 decaled_numbers = []

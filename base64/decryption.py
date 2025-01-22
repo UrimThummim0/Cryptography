@@ -1,4 +1,4 @@
 import base64
-token = "hm0uycadxwvoum1m211ce74dk6h53pxq2w0ih9srl05ozde1o6xbcd1btcc2m3ec"
+token = "MFEFEMDDJBGTMTDZHFXGCWCSN5SFOSLVLEZDS5CMGFFGQWTNNQYFSVCJGJGVGOKCMJDWI5SMO5XT2CQ="
 decoded = base64.b64decode(token).decode('utf-8')
 print(decoded)

@@ -15,4 +15,7 @@ print(bytes_string)
 
 for i in range(256):
     plaintext = bytes(a ^ i for a in bytes_string)
-    print(i, plaintext)
+    if b"crypto" in plaintext:
+        print(i, plaintext)
+    else:
+        continue
